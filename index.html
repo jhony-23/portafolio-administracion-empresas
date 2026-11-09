@@ -1,0 +1,387 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#081b2d" />
+    <meta
+      name="description"
+      content="Portafolio digital de evidencias del curso Administración de Empresas: aprendizajes, actividades y aplicación profesional."
+    />
+    <title>Portafolio de evidencias | Administración de Empresas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio"
+        ><span class="brand-icon">J.</span
+        ><span>JUAN <small>PORTAFOLIO ACADÉMICO</small></span></a
+      ><button
+        class="menu-toggle"
+        id="menuToggle"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
+      <nav id="nav">
+        <a href="#inicio">Inicio</a><a href="#sobre-mi">Sobre mí</a
+        ><a href="#recorrido">Semanas</a><a href="#competencias">Competencias</a
+        ><a href="#reflexion">Reflexión</a><a href="#pares">Valoración</a
+        ><a class="nav-cta" href="#recorrido">Explorar evidencias ↗</a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">
+              <span class="pulse"></span> UNIVERSIDAD DEL VALLE DE GUATEMALA ·
+              PORTAFOLIO DIGITAL 
+              ADMINISTRACIÓN DE EMPRESAS · 2026
+            </div>
+            <h1>
+              Aprender a<br /><em>administrar.</em><br />Prepararse para
+              <span>liderar.</span>
+            </h1>
+            <p>
+              Un recorrido por las ideas, actividades y experiencias de
+              aprendizaje del curso de
+              <strong>Administración de Empresas</strong>, conectadas con el
+              mundo de la tecnología y la ingeniería.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#recorrido"
+                >Explorar el portafolio <span>↗</span></a
+              ><a class="btn secondary" href="#sobre-mi"
+                >Conocer al estudiante <span>→</span></a
+              >
+            </div>
+            <div class="hero-meta">
+              <div><b>16</b><small>Semanas del curso</small></div>
+              <div>
+                <b id="evidenceCount">—</b><small>Archivos de apoyo</small>
+              </div>
+              <div><b>05</b><small>Secciones esenciales</small></div>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="visual-card main-card">
+              <span>01 / 05 · APRENDIZAJE</span>
+              <div class="visual-glyph">↗</div>
+              <h3>De la teoría<br />a la práctica.</h3>
+              <p>Personas · Procesos · Estrategia</p>
+            </div>
+            <div class="float-note top-note">
+              GESTIÓN <strong>+ TECNOLOGÍA</strong>
+            </div>
+            <div class="float-note bottom-note">
+              16 SEMANAS <strong>DE CRECIMIENTO</strong>
+            </div>
+          </div>
+        </div>
+        <a class="scroll-cue" href="#sobre-mi"
+          >DESLIZA PARA EXPLORAR <span>↓</span></a
+        >
+      </section>
+      <section class="section about" id="sobre-mi">
+        <div class="section-heading">
+          <span class="kicker">01 / PRESENTACIÓN</span>
+          <h2>La persona detrás<br />del <i>aprendizaje.</i></h2>
+        </div>
+        <div class="about-layout">
+          <div class="profile-art">
+            <img
+              class="profile-photo"
+              src="assets/yo.jpeg"
+              alt="Fotografía de Juan Ixcamparic"
+            />
+            <div class="profile-caption">
+              ESTUDIANTE · DOCENTE · DESARROLLADOR
+            </div>
+          </div>
+          <div class="about-copy">
+            <div class="tag">SOBRE MÍ</div>
+            <h3>Juan Ixcamparic</h3>
+            <p>
+              Soy estudiante de Ingeniería en Sistemas, docente del área de
+              Tecnología y Computación, y tengo interés en el desarrollo de
+              software, las bases de datos y el diseño de experiencias
+              digitales UI/UX.
+            </p>
+            <p>
+              Este portafolio reúne los aprendizajes que considero más
+              relevantes para comprender cómo se organizan las empresas, cómo se
+              toman decisiones y cómo se gestionan equipos y recursos. Mi
+              objetivo es conectar estos conocimientos con los proyectos
+              tecnológicos y mi desarrollo profesional.
+            </p>
+            <div class="pill-row">
+              <span>Ingeniería en Sistemas</span
+              ><span>Docencia tecnológica</span
+                ><span>Bases de datos</span
+              ><span>Desarrollo de software</span><span>Diseño UI/UX</span>
+            </div>
+            <a href="#competencias" class="text-link"
+              >Conocer mis competencias ↗</a
+            >
+          </div>
+        </div>
+      </section>
+      <section class="section journey" id="recorrido">
+        <div class="section-heading">
+          <span class="kicker">02 / RECORRIDO ACADÉMICO</span>
+          <h2>Cada semana,<br />una nueva <i>perspectiva.</i></h2>
+          <p>
+            Selecciona una semana para descubrir el concepto central, lo
+            aprendido, su aplicación profesional y las evidencias disponibles.
+          </p>
+        </div>
+        <div class="toolbar">
+          <div class="filters" id="filters" aria-label="Filtrar por eje"></div>
+          <div class="searchbox">
+            <span>⌕</span
+            ><input
+              id="search"
+              type="search"
+              placeholder="Buscar semana o tema..."
+              aria-label="Buscar semana o tema"
+            />
+          </div>
+        </div>
+        <div class="week-grid" id="weekGrid"></div>
+        <div id="noResults" class="no-results" hidden>
+          No se encontraron temas con esos filtros.
+        </div>
+      </section>
+      <section class="section competency" id="competencias">
+        <div class="section-heading">
+          <span class="kicker">03 / COMPETENCIAS</span>
+          <h2>Conocimiento que<br />se convierte en <i>acción.</i></h2>
+        </div>
+        <div class="competency-grid">
+          <article>
+            <span>01</span>
+            <div class="comp-icon">◎</div>
+            <h3>Pensamiento estratégico</h3>
+            <p>
+              Interpretar escenarios, definir prioridades y conectar decisiones
+              con objetivos.
+            </p>
+            <a href="#semana-13">Ver aplicación ↗</a>
+          </article>
+          <article>
+            <span>02</span>
+            <div class="comp-icon">⌘</div>
+            <h3>Optimización de procesos</h3>
+            <p>
+              Analizar tareas, medir tiempos y buscar mejoras con métodos
+              estructurados.
+            </p>
+            <a href="#semana-5">Ver aplicación ↗</a>
+          </article>
+          <article>
+            <span>03</span>
+            <div class="comp-icon">♧</div>
+            <h3>Gestión de personas</h3>
+            <p>
+              Comprender la cultura, la motivación y la colaboración en los
+              equipos.
+            </p>
+            <a href="#semana-9">Ver aplicación ↗</a>
+          </article>
+          <article>
+            <span>04</span>
+            <div class="comp-icon">↗</div>
+            <h3>Toma de decisiones</h3>
+            <p>
+              Comparar alternativas con criterios, restricciones y evidencia.
+            </p>
+            <a href="#semana-11">Ver aplicación ↗</a>
+          </article>
+          <article>
+            <span>05</span>
+            <div class="comp-icon">◇</div>
+            <h3>Liderazgo responsable</h3>
+            <p>Reconocer el impacto ético, social y ambiental de la gestión.</p>
+            <a href="#semana-10">Ver aplicación ↗</a>
+          </article>
+          <article>
+            <span>06</span>
+            <div class="comp-icon">▣</div>
+            <h3>Organización del trabajo</h3>
+            <p>
+              Definir funciones, responsabilidades y mecanismos de coordinación.
+            </p>
+            <a href="#semana-14">Ver aplicación ↗</a>
+          </article>
+        </div>
+      </section>
+      <section class="section reflection" id="reflexion">
+        <div class="reflection-wrap">
+          <div>
+            <span class="kicker">04 / REFLEXIÓN HOLÍSTICA</span>
+            <h2>Más allá de<br />los <i>conceptos.</i></h2>
+            <div class="quote-mark">“</div>
+          </div>
+          <div class="reflection-text">
+            <p>
+              Al estudiar Administración de Empresas comprendí que administrar
+              no consiste únicamente en organizar tareas o supervisar
+              resultados. Implica tomar decisiones, comprender a las personas,
+              aprovechar los recursos disponibles y actuar con responsabilidad.
+            </p>
+            <p>
+              Uno de los aprendizajes más valiosos fue reconocer que los
+              problemas empresariales requieren distintas perspectivas. Los
+              métodos cuantitativos permiten analizar alternativas, mientras que
+              los enfoques humanos ayudan a comprender la cultura, la motivación
+              y el comportamiento de los equipos.
+            </p>
+            <p>
+              Desde mi formación en Ingeniería en Sistemas, encuentro una
+              conexión directa entre estos conocimientos y el desarrollo de
+              proyectos tecnológicos: planificar entregables, evaluar
+              proveedores, coordinar colaboradores, medir procesos y responder a
+              cambios del entorno.
+            </p>
+            <p>
+              Como área de crecimiento, considero importante continuar
+              fortaleciendo mi liderazgo, mi comunicación y mi capacidad para
+              evaluar decisiones desde una perspectiva estratégica. Este
+              portafolio representa un punto de partida para aplicar esos
+              aprendizajes con mayor criterio en mi vida profesional.
+            </p>
+            <div class="reflection-foot">
+          
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section peers" id="pares">
+        <div class="section-heading">
+          <span class="kicker">05 / VALORACIÓN DE PARES</span>
+          <h2>Aprender también<br />es <i>escuchar.</i></h2>
+          <p>
+            La retroalimentación de compañeros permite identificar fortalezas,
+            contrastar ideas y reconocer oportunidades de mejora.
+          </p>
+        </div>
+        <div class="peer-grid">
+          <div class="peer-card">
+            <div class="peer-quote">“</div>
+            <img
+              class="peer-photo"
+              src="assets/iris.jpeg"
+              alt="Fotografía de Iris, compañera de clase"
+            />
+            <h3>Comentario de un compañero</h3>
+            <p>
+              “Muy bonito portafolio Juan, y muy organizado. Comparto contigo
+              los conocimientos y experiencias adquiridos en el curso, que al
+              final son conceptos que se presentan y desarrollan día con día.
+              Sin duda, estos son temas y casos que debemos manejar.”
+            </p>
+            <div class="peer-line">IRIS · VALORACIÓN DEL PORTAFOLIO</div>
+          </div>
+          <div class="peer-card">
+            <div class="peer-quote">“</div>
+            <h3>Aprendizaje de la retroalimentación</h3>
+            <p>
+              El comentario de Iris me confirmó que el portafolio comunica de
+              forma clara y organizada los conocimientos y experiencias
+              adquiridos durante el curso. También me recordó que los temas de
+              administración deben relacionarse con situaciones y casos reales.
+              Como aspecto de mejora, continuaré revisando la redacción y
+              presentación de mis trabajos para comunicar mejor mis ideas y
+              aplicar estos aprendizajes en futuros proyectos.
+            </p>
+            <div class="peer-line">REFLEXIÓN Y ACCIÓN DE MEJORA</div>
+          </div>
+        </div>
+        <p class="note">
+          
+        </p>
+      </section>
+      <section class="section archive" id="anexos">
+        <div class="section-heading">
+          <span class="kicker">ANEXOS / REPOSITORIO</span>
+          <h2>Documentos y<br /><i>materiales.</i></h2>
+          <p>
+            Consulta los archivos originales incluidos en el paquete. Algunas
+            presentaciones y capturas funcionan como material de apoyo, no
+            necesariamente como evidencia de autoría individual.
+          </p>
+        </div>
+        <div class="archive-grid" id="archiveGrid"></div>
+      </section>
+      <section class="closing">
+        <span class="kicker">CIERRE / PROYECCIÓN PROFESIONAL</span>
+        <h2>Administrar mejor.<br /><i>Construir mejor.</i></h2>
+        <p>
+          La gestión empresarial y la ingeniería se complementan cuando los
+          objetivos, las personas y la tecnología trabajan en una misma
+          dirección.
+        </p>
+        <a class="btn primary" href="#inicio">Volver al inicio ↑</a>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-institution">
+        <strong>UNIVERSIDAD DEL VALLE DE GUATEMALA · CAMPUS ALTIPLANO</strong>
+        <span>Licenciatura en Tecnología de Sistemas Informáticos</span>
+        <span>Curso: Administración de Empresas · Docente: Erick Rodas</span>
+        <span>Estudiante: Juan Pablo Ixcamparic Escún</span>
+      </div>
+      <span>© 2026 · PORTAFOLIO DE ADMINISTRACIÓN DE EMPRESAS</span>
+      <a href="#inicio">VOLVER ARRIBA ↑</a>
+    </footer>
+    <div class="modal" id="detailModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close="true"></div>
+      <div
+        class="modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="modalTitle"
+      >
+        <button class="modal-close" id="modalClose" aria-label="Cerrar detalle">
+          ✕
+        </button>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+    <div class="evidence-modal" id="evidenceModal" aria-hidden="true">
+      <div class="evidence-modal-backdrop" data-close="true"></div>
+      <div
+        class="evidence-modal-panel"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="evidenceTitle"
+      >
+        <button
+          class="evidence-modal-close"
+          id="evidenceModalClose"
+          aria-label="Cerrar visor de evidencia"
+        >
+          ✕
+        </button>
+        <div class="evidence-modal-header">
+          <span class="detail-kicker">EVIDENCIA DE APRENDIZAJE</span>
+          <h2 id="evidenceTitle"></h2>
+          <a id="evidenceDownload" href="#" download>Descargar PDF</a>
+        </div>
+        <iframe id="evidenceFrame" title="Visor de evidencia PDF"></iframe>
+        <p class="evidence-fallback">
+          Si el PDF no se muestra,
+          <a id="evidenceFallback" href="#" target="_blank" rel="noopener"
+            >ábrelo en otra pestaña</a
+          >.
+        </p>
+      </div>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
