@@ -29,7 +29,7 @@
     "Liderazgo",
     "Responsabilidad",
     "Estrategia",
-    "Pendiente",
+    "Integración",
   ];
   filters.innerHTML = cats
     .map(
@@ -49,7 +49,7 @@
     grid.innerHTML = items
       .map(
         (w) =>
-          `<button type="button" class="week-card ${w.pending ? "pending" : ""}" data-week="${w.n}" id="semana-${w.n}" aria-label="Abrir semana ${w.n}: ${escape(w.title)}"><div class="card-top"><span class="week-number">SEMANA ${String(w.n).padStart(2, "0")}</span><span class="week-category">${escape(w.category)}</span></div><h3>${escape(w.title)}</h3><p>${escape(w.concept)}</p><div class="card-bottom"><span>${w.docs.length ? `${w.docs.length} documento(s) disponible(s)` : w.pending ? "POR COMPLETAR" : "VER APRENDIZAJE"}</span><b>↗</b></div></button>`,
+          `<button type="button" class="week-card" data-week="${w.n}" id="semana-${w.n}" aria-label="Abrir semana ${w.n}: ${escape(w.title)}"><div class="card-top"><span class="week-number">SEMANA ${String(w.n).padStart(2, "0")}</span><span class="week-category">${escape(w.category)}</span></div><h3>${escape(w.title)}</h3><p>${escape(w.concept)}</p><div class="card-bottom"><span>${w.docs.length ? `${w.docs.length} documento(s) disponible(s)` : "VER APRENDIZAJE"}</span><b>↗</b></div></button>`,
       )
       .join("");
     document.getElementById("noResults").hidden = items.length > 0;

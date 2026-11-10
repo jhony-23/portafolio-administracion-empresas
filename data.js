@@ -11,7 +11,6 @@ window.PORTFOLIO_DATA = {
       apply:
         "En desarrollo de software, defino objetivos medibles y optimizo recursos sin perder de vista las necesidades del usuario.",
       docs: [],
-      pending: false,
     },
     {
       n: 2,
@@ -24,7 +23,6 @@ window.PORTFOLIO_DATA = {
       apply:
         "Al gestionar un proyecto tecnológico, traduzco requerimientos en tareas, responsables, seguimiento y mejoras.",
       docs: [],
-      pending: false,
     },
     {
       n: 3,
@@ -45,7 +43,6 @@ window.PORTFOLIO_DATA = {
             "Análisis de los aportes de Henri Mintzberg y los roles gerenciales.",
         },
       ],
-      pending: false,
     },
     {
       n: 4,
@@ -59,14 +56,13 @@ window.PORTFOLIO_DATA = {
         "Selecciono prácticas de organización según el tamaño, madurez y necesidades de cada equipo.",
       docs: [
         {
-          name: "PRAMIDE DE LA ADMINISTRACION",
+          name: "PIRÁMIDE DE LA ADMINISTRACIÓN",
           url: "assets/evidencias/PRAMIDE DE LA ADMINISTRACION.pdf",
           original: "PRAMIDE DE LA ADMINISTRACION.pdf",
           description:
             "Material de apoyo sobre los fundamentos y niveles de la administración.",
         },
       ],
-      pending: false,
     },
     {
       n: 5,
@@ -80,7 +76,7 @@ window.PORTFOLIO_DATA = {
         "En TI puedo optimizar la preparación de equipos y asignar tareas según tiempos y capacidades.",
       docs: [
         {
-          name: "ADMINISTRACION CIENIFICA 2",
+          name: "ADMINISTRACIÓN CIENTÍFICA 2",
           url: "assets/evidencias/ADMINISTRACION CIENIFICA 2.pdf",
           original: "ADMINISTRACION CIENIFICA 2.pdf",
           description:
@@ -94,7 +90,6 @@ window.PORTFOLIO_DATA = {
             "Propuesta de estandarización, automatización y mejora de productividad en TI.",
         },
       ],
-      pending: false,
     },
     {
       n: 6,
@@ -107,7 +102,6 @@ window.PORTFOLIO_DATA = {
       apply:
         "En equipos técnicos considero la motivación, el ambiente de trabajo y la comunicación antes de proponer soluciones. ",
       docs: [],
-      pending: false,
     },
     {
       n: 7,
@@ -120,7 +114,6 @@ window.PORTFOLIO_DATA = {
       apply:
         "En software puedo usar retrospectivas, indicadores de defectos y ciclos de mejora.",
       docs: [],
-      pending: false,
     },
     {
       n: 8,
@@ -141,7 +134,6 @@ window.PORTFOLIO_DATA = {
             "Comparación de las perspectivas omnipotente y simbólica del gerente.",
         },
       ],
-      pending: false,
     },
     {
       n: 9,
@@ -162,7 +154,6 @@ window.PORTFOLIO_DATA = {
             "Propuesta de experiencias y mecanismos para construir cultura organizacional.",
         },
       ],
-      pending: false,
     },
     {
       n: 10,
@@ -175,7 +166,6 @@ window.PORTFOLIO_DATA = {
       apply:
         "En tecnología considero accesibilidad, privacidad, consumo energético y efectos en las personas.",
       docs: [],
-      pending: false,
     },
     {
       n: 11,
@@ -189,26 +179,25 @@ window.PORTFOLIO_DATA = {
         "Puedo evaluar proveedores de tecnología ante variaciones presupuestarias o de usuarios.",
       docs: [
         {
-          name: "TOMA DE DESICIONES",
+          name: "TOMA DE DECISIONES",
           url: "assets/evidencias/TOMA DE DESICIONES.pdf",
           original: "TOMA DE DESICIONES.pdf",
           description:
             "Análisis del proceso de toma de decisiones y evaluación de alternativas.",
         },
       ],
-      pending: false,
     },
     {
       n: 12,
-      title: "Espacio para evidencia pendiente",
-      category: "Pendiente",
+      title: "Integración de aprendizajes",
+      category: "Integración",
       concept:
-        "Esta semana se reserva para incorporar el tema o actividad que figure en el aula virtual.",
-      learn: "Pendiente de validar con el registro oficial del curso.",
+        "Los fundamentos de la administración se integran al analizar personas, procesos, decisiones y estrategia.",
+      learn:
+        "Relacioné los conceptos del curso para comprender la administración como un sistema conectado.",
       apply:
-        "Se añadirá la aplicación profesional cuando se confirme la actividad.",
+        "En proyectos tecnológicos puedo combinar planeación, coordinación, medición y liderazgo para alcanzar resultados.",
       docs: [],
-      pending: true,
     },
     {
       n: 13,
@@ -221,7 +210,6 @@ window.PORTFOLIO_DATA = {
       apply:
         "En proyectos digitales puedo evaluar riesgos y oportunidades antes de definir una hoja de ruta.",
       docs: [],
-      pending: false,
     },
     {
       n: 14,
@@ -235,14 +223,13 @@ window.PORTFOLIO_DATA = {
         "En equipos de desarrollo puedo clarificar roles, responsables y rutas de escalamiento.",
       docs: [
         {
-          name: "ESTRUCTURA ORGAIZACIONAL",
+          name: "ESTRUCTURA ORGANIZACIONAL",
           url: "assets/evidencias/ESTRUCTURA ORGAIZACIONAL.pdf",
           original: "ESTRUCTURA ORGAIZACIONAL.pdf",
           description:
             "Material sobre diseño organizacional, autoridad y distribución de responsabilidades.",
         },
       ],
-      pending: false,
     },
     {
       n: 15,
@@ -255,7 +242,6 @@ window.PORTFOLIO_DATA = {
       apply:
         "En tecnología puedo participar en la selección de perfiles técnicos y en planes de integración.",
       docs: [],
-      pending: false,
     },
     {
       n: 16,
@@ -268,12 +254,11 @@ window.PORTFOLIO_DATA = {
       apply:
         "En software revisaría licencias, titularidad del código, documentación y mecanismos de protección aplicables.",
       docs: [],
-      pending: false,
     },
   ],
   docs: [
     {
-      name: "Administracion Cienifica 2",
+      name: "Administración Científica 2",
       url: "assets/evidencias/ADMINISTRACION CIENIFICA 2.pdf",
       original: "ADMINISTRACION CIENIFICA 2.pdf",
     },
@@ -288,7 +273,7 @@ window.PORTFOLIO_DATA = {
       original: "CULTURA ORGANIZACIONAL.pdf",
     },
     {
-      name: "Estructura Orgaizacional",
+      name: "Estructura Organizacional",
       url: "assets/evidencias/ESTRUCTURA ORGAIZACIONAL.pdf",
       original: "ESTRUCTURA ORGAIZACIONAL.pdf",
     },
@@ -303,12 +288,12 @@ window.PORTFOLIO_DATA = {
       original: "PENSADORES DE LA ADMINISTRACION.pdf",
     },
     {
-      name: "Pramide De La Administracion",
+      name: "Pirámide De La Administración",
       url: "assets/evidencias/PRAMIDE DE LA ADMINISTRACION.pdf",
       original: "PRAMIDE DE LA ADMINISTRACION.pdf",
     },
     {
-      name: "Toma De Desiciones",
+      name: "Toma De Decisiones",
       url: "assets/evidencias/TOMA DE DESICIONES.pdf",
       original: "TOMA DE DESICIONES.pdf",
     },
